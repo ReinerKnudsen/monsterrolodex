@@ -40,13 +40,7 @@ class App extends Component {
 
     return (
       <div className='App'>
-        {/* {filteredMonsters.map((monster) => {
-          return (
-            <div key={monster.id}>
-              <h1>{monster.name}</h1>
-            </div>
-          );
-        })} */}
+        <h1 className='app-title'>Our team</h1>
         <SearchBox
           className='search-box'
           placeholder='Search name'
